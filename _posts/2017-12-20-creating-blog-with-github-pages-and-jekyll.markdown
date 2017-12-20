@@ -26,7 +26,7 @@ New blog entries can be added to the `_post` folder and follow the standard mark
 
 ### GitHub pages
 
-To view this blog goto: [https://github.com/<USERNAME>.github.io](https://github.com/<USERNAME>.github.io)
+To view this blog goto: [https://github.com/USERNAME.github.io](https://github.com/USERNAME.github.io)
 
 Alternatively you can use GitLab pages which appears to work exactly the same.
 
