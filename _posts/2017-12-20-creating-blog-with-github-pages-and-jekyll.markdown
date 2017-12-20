@@ -5,15 +5,16 @@ date:   2017-12-20 08:50:20 +0000
 categories: jekyll gitlab
 ---
 
-Steps to create a sample blog created using Jekyll and hosted on GitHub.
+## Steps to create a sample blog created using Jekyll and hosted on GitHub.
 
 ### Setup
 
-If you want to create a similar blog you can either fork this implementation or create a new one by installing:
+If you want to create a similar blog you can either fork this [implementation](https://github.com/m-x-k/m-x-k.github.io) or create a new one by installing:
 * Ruby
 * Jekyll
 {% highlight bash %}
 gem install jekyll
+jekyll new .
 {% endhighlight %}
 
 ### Development
@@ -28,7 +29,7 @@ New blog entries can be added to the `_post` folder and follow the standard mark
 
 To view this blog goto: [https://github.com/USERNAME.github.io](https://github.com/USERNAME.github.io)
 
-Alternatively you can use GitLab pages which appears to work exactly the same.
+Alternatively you can use GitLab pages which appears to work exactly the same :-)
 
 ### Plugins
 

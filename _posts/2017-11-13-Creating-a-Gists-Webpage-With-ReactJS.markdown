@@ -17,8 +17,13 @@ However while the ReactJS part was fairly straightforward I was once again remin
       this.setState({gists: data});
     }.bind(this));    
 }</code></pre>
-Obviously in a production situation this isn't what we would rely on. Reverse proxies like Nginx, HAProxy or Apache are much better suited to revolve these types of issues. Ideally we would setup a reverse proxy on "api.github.com" so that we can share a common domain for the client side requests. For example if your web page url was http://my.gists.com/index.html you might setup a reverse proxy like http://my.gists.com/api/m-x-k/gists.
-<em>Note: while its possible to mitigate the problem with headers it's not an ideal solution as it depends on browser support.
-</em>
+
+Obviously in a production situation this isn't what we would rely on!!! 
+
+Reverse proxies like Nginx, HAProxy or Apache are much better suited to revolve these types of issues. 
+
+Ideally we would setup a reverse proxy on "api.github.com" so that we can share a common domain for the client side requests. For example if your web page url was http://my.gists.com/index.html you might setup a reverse proxy like http://my.gists.com/api/m-x-k/gists.
+
+<em>Note: while its possible to mitigate the problem with headers it's not an ideal solution as it depends on browser support.</em>
 
 [https://codepen.io/mxk/pen/WEJBbg](https://codepen.io/mxk/pen/WEJBbg)
