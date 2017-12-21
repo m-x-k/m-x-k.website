@@ -16,11 +16,11 @@
 title: MXK Software craftmanship blog
 email: mxksolutions@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Software craftmanship solutions covering various areas of Development, 
+  Software craftmanship solutions covering various areas of Development,
   Architecture, Testing, Extreme Programming, Agile and DevOps.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://mxk.solutions" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+twitter_username:
 github_username:  m-x-k
 
 # Build settings
@@ -29,6 +29,9 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-gist
+
+site:
+  baseurl: "/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating a Blog with Jekyll and GitHub pages"
 date:   2017-12-20 08:50:20 +0000
-categories: jekyll gitlab
+categories: [Jekyll]
 ---
 
 ## Steps to create a sample blog created using Jekyll and hosted on GitHub.
@@ -40,4 +40,3 @@ Jekyll has many useful plugins including for example [jekyll-gist](https://githu
 #### Useful links
 
 * [Jekyll installation](https://jekyllrb.com/docs/installation/)
-

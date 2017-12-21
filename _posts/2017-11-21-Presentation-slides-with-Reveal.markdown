@@ -2,7 +2,7 @@
 layout: post
 title:  "Presentation slides with Reveal.js"
 date:   2017-11-21 20:20:41 +0000
-categories: reveal
+categories: [Javascript, RevealJS]
 ---
 
 Using the reveal javascript library its possible to build intricate presentation slides for the browser. While its possible to create a sample using a web client over at <a href="https://slides.com/">https://slides.com/</a> I personally prefer to download the latest version directly from the github account <a href="https://github.com/hakimel/reveal.js/releases/latest">Latest release</a> in order to generate your slide presentation by hand.
@@ -28,4 +28,3 @@ There are many more features that you can play about with including embedded vid
 For a quick introduction on other features in the current version 3 release have a look at the following slideshare from the author of Reveal.js Hakim El Hattab:
 
 [https://www.slideshare.net/hakimel/revealjs-300](https://www.slideshare.net/hakimel/revealjs-300)
-

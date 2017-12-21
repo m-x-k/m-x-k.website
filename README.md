@@ -7,9 +7,8 @@ This blog has been created with Jekyll and hosted on GitHub.
 #### Requirements
 
 * Ruby
-** Jekyll
+* Jekyll
 
 #### Development testing
 
   jekyll server
-
