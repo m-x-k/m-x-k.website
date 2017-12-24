@@ -92,6 +92,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - .nojekyll
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
