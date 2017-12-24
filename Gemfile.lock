@@ -242,7 +242,6 @@ DEPENDENCIES
   jekyll-gist
   jekyll-paginate-v2
   jekyll-remote-theme
-  tzinfo-data
 
 BUNDLED WITH
    1.16.1
