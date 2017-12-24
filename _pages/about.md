@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
@@ -8,4 +8,3 @@ permalink: /about/
   Architecture, Testing, Extreme Programming, Agile and DevOps.
 
 [MXK Solutions Ltd](http://mxk.solutions)
-

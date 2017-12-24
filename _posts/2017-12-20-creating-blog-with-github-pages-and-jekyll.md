@@ -1,8 +1,12 @@
 ---
-layout: post
+layout: single
 title:  "Creating a Blog with Jekyll and GitHub pages"
 date:   2017-12-20 08:50:20 +0000
-categories: [Jekyll]
+categories:
+  - Jekyll
+tags:
+  - Jekyll
+  - GitHub
 ---
 
 ## Steps to create a sample blog created using Jekyll and hosted on GitHub.

@@ -1,8 +1,12 @@
 ---
-layout: post
+layout: single
 title:  "Building a responsive photo gallery"
 date:   2017-10-08 20:00:10 +0000
-categories: [Javascript, ReactJS]
+categories:
+  - Javascript
+tags:
+  - Javascript
+  - ReactJS
 ---
 
 Recently I needed to build a photo gallery for a website built with ReactJS. I came across a convenient react library "react-photo-gallery" which was ideal for this purpose. As a proof of concept I built a small Spring Boot app with ReactJS support:

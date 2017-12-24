@@ -1,8 +1,13 @@
 ---
-layout: post
+layout: single
 title:  "Rapid prototyping with code templates"
 date:   2017-11-12 20:00:10 +0000
-categories: [Python, Cookiecutter]
+categories:
+  - Python
+  - Cookiecutter
+tags:
+  - Python
+  - Cookiecutter
 ---
 
 Over the last few years I have been using Python quite a lot to build rapid prototypes. By far the best command line tool I've found for this is the python 'cookiecutter' project below:

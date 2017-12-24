@@ -1,8 +1,13 @@
 ---
-layout: post
+layout: single
 title:  "Creating a Gists Webpage With ReactJS"
 date:   2017-11-13 19:00:00 +0000
-categories: [Javascript, ReactJS]
+categories:
+  - Javascript
+  - ReactJS
+tags:
+  - Javascript
+  - ReactJS
 ---
 
 I decided to build a simple ReactJS webpage to render my personal Gists from GitHub as an basic kata.

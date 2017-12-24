@@ -1,14 +1,19 @@
 ---
-layout: post
+layout: single
 title: "Python PIP Setup with artifactory"
 date:  2017-12-22 20:00:00 +0000
-catefories: python
+categories:
+  - python
+tags:
+  - python
+  - artifactory
+  - pypi
 ---
 
 ## Installing a local artifactory instance:
 
 ```
-docker pull docker.bintray.io/jfrog/artifactory-oss:latest 
+docker pull docker.bintray.io/jfrog/artifactory-oss:latest
 docker run --name artifactory -d -p 8081:8081 docker.bintray.io/jfrog/artifactory-oss
 ```
 
@@ -27,4 +32,3 @@ pip install --index-url http://localhost:8081/artifactory/api/pypi/repo-pypi-vir
 ```
 
   * Some additional commands can be useful here such as `--disable-pip-version-check` and `--trusted-host <HOST>`
-
