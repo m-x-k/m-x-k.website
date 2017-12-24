@@ -85,7 +85,7 @@ var store = [
       
       {
         "title": "Building a responsive photo gallery",
-        "url": "http://localhost:4000/javascript/Building-a-responsive-photo-gallery/",
+        "url": "https://m-x-k.github.io/javascript/Building-a-responsive-photo-gallery/",
         "excerpt": "Recently I needed to build a photo gallery for a website built with ReactJS. I came across a convenient react...",
         "teaser":
           
@@ -96,7 +96,7 @@ var store = [
       
       {
         "title": "Rapid prototyping with code templates",
-        "url": "http://localhost:4000/python/cookiecutter/Rapid-prototyping-with-code-templates/",
+        "url": "https://m-x-k.github.io/python/cookiecutter/Rapid-prototyping-with-code-templates/",
         "excerpt": "Over the last few years I have been using Python quite a lot to build rapid prototypes. By far the...",
         "teaser":
           
@@ -107,7 +107,7 @@ var store = [
       
       {
         "title": "Creating a Gists Webpage With ReactJS",
-        "url": "http://localhost:4000/javascript/reactjs/Creating-a-Gists-Webpage-With-ReactJS/",
+        "url": "https://m-x-k.github.io/javascript/reactjs/Creating-a-Gists-Webpage-With-ReactJS/",
         "excerpt": "I decided to build a simple ReactJS webpage to render my personal Gists from GitHub as an basic kata. However...",
         "teaser":
           
@@ -118,7 +118,7 @@ var store = [
       
       {
         "title": "Useful List Of Python Resources",
-        "url": "http://localhost:4000/python/Useful-List-Of-Python-Resources/",
+        "url": "https://m-x-k.github.io/python/Useful-List-Of-Python-Resources/",
         "excerpt": "\n\n",
         "teaser":
           
@@ -129,7 +129,7 @@ var store = [
       
       {
         "title": "Presentation slides with Reveal.js",
-        "url": "http://localhost:4000/javascript/revealjs/Presentation-slides-with-Reveal/",
+        "url": "https://m-x-k.github.io/javascript/revealjs/Presentation-slides-with-Reveal/",
         "excerpt": "Using the reveal javascript library its possible to build intricate presentation slides for the browser. While its possible to create...",
         "teaser":
           
@@ -140,7 +140,7 @@ var store = [
       
       {
         "title": "Creating a Blog with Jekyll and GitHub pages",
-        "url": "http://localhost:4000/jekyll/creating-blog-with-github-pages-and-jekyll/",
+        "url": "https://m-x-k.github.io/jekyll/creating-blog-with-github-pages-and-jekyll/",
         "excerpt": "Steps to create a sample blog created using Jekyll and hosted on GitHub. Setup If you want to create a...",
         "teaser":
           
@@ -151,7 +151,7 @@ var store = [
       
       {
         "title": "Python PIP Setup with artifactory",
-        "url": "http://localhost:4000/python/python-pip-setup-with-artifactory/",
+        "url": "https://m-x-k.github.io/python/python-pip-setup-with-artifactory/",
         "excerpt": "Installing a local artifactory instance: docker pull docker.bintray.io/jfrog/artifactory-oss:latest docker run --name artifactory -d -p 8081:8081 docker.bintray.io/jfrog/artifactory-oss In browser open http://localhost:8081...",
         "teaser":
           
