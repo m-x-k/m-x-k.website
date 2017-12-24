@@ -14,7 +14,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-gist
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dark"
@@ -29,7 +29,7 @@ site:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
