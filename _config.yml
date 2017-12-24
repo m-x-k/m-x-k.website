@@ -11,10 +11,10 @@ github_username:  m-x-k
 markdown: kramdown
 # theme: minimal-mistakes-jekyll
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-gist
-  - jekyll-paginate-v2
-  - jekyll-remote-theme
+  - jekyll-paginate
 
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dark"
