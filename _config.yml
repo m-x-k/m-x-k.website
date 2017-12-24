@@ -71,7 +71,7 @@ jekyll-archives:
 pagination:
   enabled: true
   per_page: 3
-  title: ':title - page :num of :max'
+  title: 'Posts - page :num of :max'
   limit: 0
   sort_field: 'date'
   sort_reverse: true
