@@ -76,6 +76,7 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+
 author:
   name             : "Martin Kelly"
   avatar           : "assets/images/Avatars4.png"
