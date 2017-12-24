@@ -33,7 +33,9 @@ New blog entries can be added to the `_post` folder and follow the standard mark
 
 To view this blog goto: [https://github.com/USERNAME.github.io](https://github.com/USERNAME.github.io)
 
-Alternatively you can use GitLab pages which appears to work exactly the same :-)
+A number of the Jekyll plugins will not work by default with GitHub pages. I have noticed a number of issues with pagination when using custom themes. This blog for example uses the minimal [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes) plugin which requires pagination for recent posts. At the time of writing `jekyll-paginate-v2` isn't supported by GitHub pages. It is however possible to get unsupported plugins to work via a number of alternative deployment options but the majority of these are quite complex for this introduction tutorial.
+
+Note: its also possible to use GitLab pages
 
 ### Plugins
 
@@ -44,3 +46,5 @@ Jekyll has many useful plugins including for example [jekyll-gist](https://githu
 #### Useful links
 
 * [Jekyll installation](https://jekyllrb.com/docs/installation/)
+* [GitHub pages help](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+* [GitHub pages error messages](https://help.github.com/articles/viewing-jekyll-build-error-messages/)
