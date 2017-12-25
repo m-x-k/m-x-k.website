@@ -26,7 +26,7 @@ You will need to create a Docker Hub account and login via either the docker com
 
 A `Docker Image` is a static binary read-only copy of your application or product. In simple terms think of it like an ISO only it is comprised of a series of layers. Each layer is combined to form the complete image and can be `cached` for efficiency.
 
-The efficiency of layers in practical terms means faster uploads and downloads when using images. Images are typically uploaded to a central docker hub or registry. You can use the official docker hub or you can pull down your own and host it locally if you want.
+The efficiency of layers in practical terms means faster build times, uploads and downloads when using images. Images are typically uploaded to a central docker hub or registry. You can use the official docker hub or you can pull down your own and host it locally if you want.
 
 You can pull down pre-built docker images from the official Docker Hub for example:
 ```
