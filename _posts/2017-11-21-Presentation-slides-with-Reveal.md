@@ -32,4 +32,4 @@ There are many more features that you can play about with including embedded vid
 
 For a quick introduction on other features in the current version 3 release have a look at the following slideshare from the author of Reveal.js Hakim El Hattab:
 
-[https://www.slideshare.net/hakimel/revealjs-300](https://www.slideshare.net/hakimel/revealjs-300)
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/e3ACCuYrg0rSiG" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/hakimel/revealjs-300" title="reveal.js 3.0.0" target="_blank">reveal.js 3.0.0</a> </strong> from <strong><a href="https://www.slideshare.net/hakimel" target="_blank">Hakim El Hattab</a></strong> </div>
