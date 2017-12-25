@@ -1,5 +1,7 @@
 # MXK Solutions Ltd Blog
 
+[https://m-x-k.github.io](https://m-x-k.github.io)
+
 This blog has been created with Jekyll and hosted on GitHub pages.
 
 ### Development
