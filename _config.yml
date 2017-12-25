@@ -46,6 +46,11 @@ defaults:
       layout: single
       author_profile: true
 
+analytics:
+  provider: "google-universal"
+  google:
+    tracking_id: "UA-111584934-1"
+
 related: true
 breadcrumbs: true
 search: true
