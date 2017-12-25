@@ -61,7 +61,22 @@ Interaction with OpenShift is with the command line tool oc. To configure and se
   oc new-app https://github.com/openshift/nodejs-ex -l name=myapp     # Deploy a sample app
   oc expose svc/nodejs-ex                                             # Expose a route to the service
   minishift openshift service nodejs-ex --in-browser                  # Open the app in your browser
+  oc status                                                           # View project status
 ```
+
+---
+
+#### WARNING
+
+<em style="color: #00adb5; font-size: 80%">
+If you encounter issues loading the sample application in your browser its is possible that the DNS is not resolving correctly. In my case the url "http://dev-python3-myproject.192.168.XX.XX.nip.io" was not resolving due to an issue with `nip.io` which provides wildcard support for DNS names. After some investigation it turns out the problem for me was my router which was blocking DNS resolution.
+</em>
+
+<em style="color: #00adb5; font-size: 80%">
+If you encounter this specific issue you can resolve it by updating your machine to use the google DNS server (i.e. 8.8.8.8). In my case all I had to do was edit "/etc/resolv.conf" and replace the nameserver line with "nameserver 8.8.8.8". You may need to reset this value if it is overwritten so its worth creating a small script to update it. Finally you will probably need to expose the route again in order to get it working.
+</em>
+
+---
 
 ### Stop MiniShift:
 
@@ -73,6 +88,7 @@ When your finished playing with MiniShift you can stop it easily with the follow
 
 ## Ok so whats next?
 
+>
 Ok so installing a sample app is fairly straightforward but what do we do if we want to take our applications and use a real OpenShift instance in the Cloud. Well luckily cloud providers have started to provide convenient guides on how to set all this up. For instance [AWS provides a quick overview on their technical blog covering this very topic](https://aws.amazon.com/about-aws/whats-new/2017/09/red-hat-openshift-container-platform-on-the-aws-cloud-quick-start-reference-deployment/).
 
 ## Additional links:
