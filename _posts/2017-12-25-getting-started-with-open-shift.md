@@ -52,7 +52,7 @@ At the time of writing you can install and setup MiniShift with all the requirem
 Interaction with OpenShift is with the command line tool oc. To configure and set this up execute the following:
 
 ```
-  eval $(minishift oc-env)    # Setup the
+  eval $(minishift oc-env)    # Setup the OpenShift command line tool
 ```
 
 ### Sample application:
