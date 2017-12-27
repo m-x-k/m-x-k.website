@@ -10,4 +10,5 @@ permalink: /design/
 <section class="skills-logos">
   <span><img class="logo" src="/assets/images/Skills/WebDesign.jpg"/></span>
   <span><img class="logo" src="/assets/images/Skills/WebDesign2.jpg"/></span>
+  <span><img class="logo" src="/assets/images/Skills/FreeCodeCamp-Cert.jpg"/></span>
 </section>
