@@ -1,14 +1,14 @@
 .main-skills {
   display: grid;
   font-size: 120%;
-  grid-template-columns: 210px 200px 150px 200px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: 30% 30%;
   grid-auto-flow: row;
   border-bottom: solid;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
-  padding-right: 25%;
-  padding-left: 25%;
+  padding-right: 20%;
+  padding-left: 20%;
   background-color: #1a1d24;
 }
 
