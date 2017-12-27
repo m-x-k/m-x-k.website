@@ -80,7 +80,7 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
-
+paginate_path: "/recent-posts/page:num"
 
 author:
   name             : "Martin Kelly"
