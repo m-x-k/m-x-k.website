@@ -1,4 +1,6 @@
 main:
+  - title: "Recent Posts"
+    url: /recent-posts/
   - title: "Posts"
     url: /year-archive/
   - title: "Categories"
