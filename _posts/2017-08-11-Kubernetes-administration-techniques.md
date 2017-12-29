@@ -192,7 +192,7 @@ kubectl get pods --all-namespaces   # Get all pods with their namespaces
 kubectl get pods -n <NAMESPACE>     # Get all pods with the matching namespace
 ```
 
-There many ways that you can use this feature. For instance you can assign namespaces per individual or you could assign a namespace for a particular environment such dev, test or prod. Another option is to extend the concept of namespaces for a particular environment so for example in dev have a namespace for each individual team, in prod this might be at an application level due to the number of pods required for a live environment.
+There many ways that you can use this feature. For instance you can assign namespaces per individual or you could assign a namespace for a particular environment such as dev, test or prod. Another option is to extend the concept of namespaces for a particular environment so for example in dev have a namespace for each individual team, in prod this might be at an application level due to the number of pods required for a live environment.
 
 You can also use namespaces to determine quotas out-of-the-box with namespaces which you will see in the next section.
 
@@ -208,7 +208,7 @@ Based on the above resource quota Kubernetes will complain when you next try to 
 kubectl edit resourcequota -n <NAMESPACE>
 ```
 
-This will open your favourite editor and allow you to modifiy the yaml file configuration for your resource quota.
+This will open your favourite editor and allow you to modify the yaml file configuration for your resource quota.
 
 If you want to you can even use these quotas to determine network policies but that would require additional add-ons.
 
@@ -216,4 +216,4 @@ If you want to you can even use these quotas to determine network policies but t
 
 ### Summary
 
-Hopefully you've learnt a few new things about how kubernetes administration. There are a lot of other topics that I haven't covered some of which may be redundant if you already know them from other orchestration tools or from container tools like Docker.
+Hopefully you've learnt a few new things about how Kubernetes administration. There are a lot of other topics that I haven't covered some of which may be redundant if you already know them from other orchestration tools or from container tools like Docker.
