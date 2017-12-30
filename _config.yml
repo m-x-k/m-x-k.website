@@ -18,29 +18,13 @@ plugins:
   - jekyll-gist
   - jekyll-paginate-v2
 
+site:
+  baseurl: "/"
+  url: "https://m-x-k.github.io"
+
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dark"
 repository: "m-x-k/m-x-k.github.io"
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
 
 analytics:
   provider: "google-universal"

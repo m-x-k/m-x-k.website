@@ -5,7 +5,7 @@ if [[ -z "$1" ]]; then
   exit
 fi
 
-JEKYLL_ENV=production bundle exec jekyll build && \
+bundle exec jekyll build && \
   cd _site && \
   git add . && \
   git commit -am "$1" && \
