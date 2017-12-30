@@ -13,6 +13,7 @@ markdown: kramdown
 # theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-remote-theme
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate-v2
