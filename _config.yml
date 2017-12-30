@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Software craftmanship solutions covering various areas of Development,
   Architecture, Testing, Extreme Programming, Agile and DevOps.
 # baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://m-x-k.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://m-x-k.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:
 locale: "en-gb"
 
@@ -18,13 +18,29 @@ plugins:
   - jekyll-gist
   - jekyll-paginate-v2
 
-site:
-  baseurl: "/"
-  url: "https://m-x-k.github.io"
-
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dark"
 repository: "m-x-k/m-x-k.github.io"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 analytics:
   provider: "google-universal"
@@ -51,6 +67,11 @@ jekyll-archives:
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environment
 
 # Pagination Settings
 pagination:
