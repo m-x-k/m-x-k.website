@@ -1,3 +1,7 @@
+h1, h2, h3 {
+  color: #00adb5;
+}
+
 .main-skills {
   display: grid;
   font-size: 120%;
