@@ -124,3 +124,38 @@ The preferred way to exit a jshell session is to use:
 ```sh
 jshell> /exit
 ```
+
+---
+
+### Shortcuts
+
+JShell comes with a number of convenient shortcuts designed to make the experience faster for advanced users.
+
+#### SHIFT + TAB
+
+1) Autocomplete variable assignment
+
+If you create a new variable it will be automatically assigned to a `$<NUM>` variable. However you can assign this to your own variable name very quickly by holding down `SHIFT + TAB` followed by `v`.
+```sh
+jshell> new Random()
+```
+This will automatically pre-fill the expression for you and allow you to assign a varaible name of your choice:
+```sh
+jshell> Random <TYPE_YOUR_NAME> = new Random()
+```
+
+2) Find, choose and import
+
+Type into jshell the name of your package or class and hold down `SHIFT + TAB` followed by `i`:
+```sh
+jshell> Duration
+0: Do nothing
+1: import: java.time.Duration
+2: import: javafx.util.Duration
+3: import: javax.xml.datatype.Duration
+Choice:
+```
+You can then type which of the above packages you want and it will be imported for you automatically. For example typing `1` for the list above will output:
+```sh
+Imported: java.time.Duration
+```
