@@ -4,8 +4,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Software craftmanship solutions covering various areas of Development,
   Architecture, Testing, Extreme Programming, Agile and DevOps.
 # baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://m-x-k.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:
+url: https://m-x-k.github.io # the base hostname & protocol for your site, e.g. http://example.com
+github_username: m-x-k
 locale: "en-gb"
 
 # Build settings
