@@ -25,7 +25,7 @@ repository: "m-x-k/m-x-k.github.io"
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: single
