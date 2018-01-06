@@ -5,7 +5,7 @@ date:   2017-12-30 11:40:00 +0000
 categories:
   - Java
 tags:
-  - Java 9
+  - Java
   - JShell
 ---
 
@@ -65,7 +65,7 @@ jshell> /edit
 If you have recently created a method in your session history you can extend this to edit that method:
 ```sh
 jshell> void testMe() {
-jshell> System.out.println("testing");  
+jshell> System.out.println("testing");
 jshell> }
 jshell> /edit 1
 ```

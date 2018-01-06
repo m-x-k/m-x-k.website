@@ -6,8 +6,8 @@ categories:
   - Analytics
   - GTM
 tags:
-  - Google Analytics
-  - Google Tag Manager
+  - GoogleAnalytics
+  - GoogleTagManager
 ---
 
 ## Google Analytics

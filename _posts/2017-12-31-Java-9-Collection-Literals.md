@@ -5,8 +5,7 @@ date:   2017-12-30 11:40:00 +0000
 categories:
   - Java
 tags:
-  - Java 9
-  - Collection Literals
+  - Java
 ---
 
 An outline of some of the Java 9 changes to Collection literals and other areas of the core API.
