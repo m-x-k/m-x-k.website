@@ -6,7 +6,6 @@ categories:
   - Tmux
 tags:
   - Tmux
-  - Tmuxinator
   - Python
 ---
 

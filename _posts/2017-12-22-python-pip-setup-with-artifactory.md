@@ -3,11 +3,11 @@ layout: single
 title: "Python PIP Setup with artifactory"
 date:  2017-12-22 20:00:00 +0000
 categories:
-  - python
+  - Python
 tags:
-  - python
-  - artifactory
-  - pypi
+  - Python
+  - Artifactory
+  - PyPI
 ---
 
 ## Installing a local artifactory instance:
