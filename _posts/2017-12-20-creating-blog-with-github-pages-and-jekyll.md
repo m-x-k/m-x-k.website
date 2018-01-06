@@ -16,10 +16,10 @@ tags:
 If you want to create a similar blog you can either fork this [implementation](https://github.com/m-x-k/m-x-k.github.io) or create a new one by installing:
 * Ruby
 * Jekyll
-{% highlight bash %}
+```sh
 gem install jekyll
 jekyll new .
-{% endhighlight %}
+```
 
 ### Development
 

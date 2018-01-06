@@ -30,7 +30,7 @@ At the time of writing this is the setup for working with Kubernetes on a MacOS 
 
 Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day.
 
-```
+```sh
 brew cask install minikube    # Install
 minikube start                # Start
 minikube dashboard            # Open dashboard browser
@@ -42,7 +42,7 @@ Kubectl is the Kubernetes command-line tool used to deploy and manage applicatio
 
 Download the latest Kubectl instance, make it executable and move it into you MacOS PATH.
 
-```
+```sh
 curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/darwin/amd64/kubectl
 chmod +x ./kubectl
 sudo mv ./kubectl /usr/local/bin/kubectl
@@ -71,13 +71,13 @@ spec:
 ```
 
 Create and run this pod inside the minikube vm:
-```
+```sh
 kubectl create -f pod.yaml      # Create the pod
 kubectl get pods                # View all pods
 ```
 
 Enter the running pod `redis` instance:
-```
+```sh
 kubectl exec -it myredispod -- redis-cli
 ```
 

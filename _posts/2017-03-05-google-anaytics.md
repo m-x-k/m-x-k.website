@@ -19,7 +19,7 @@ First up go to the main [Google Analytics website](https://analytics.google.com/
 #### Adding Google Tag Manager to your website
 
 After setting up your Google Analytics account and logging in you should get a html snippet which you can embed into your website like:
-```
+```js
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
 <script>
@@ -35,7 +35,7 @@ Ideally you would place the above snippet on each page in your application. If y
 #### Testing it all works
 
 Before you upload your website with the new Google Tag Manager support you might like to check that it is indeed loading and registering the tag with google correctly. This is where you can use the chrome browser plugin `GA debugger`. If you install the plugin and enable it with the icon at the top right of the chrome window and refresh your website page you should be able to see output in the chrome developer tools console window which should contain the following ascii banner:
-```
+```asciidoc
                          _                          _       _   _
                         | |                        | |     | | (_)
   __ _  ___   ___   __ _| | ___    __ _ _ __   __ _| |_   _| |_ _  ___ ___
@@ -47,12 +47,12 @@ Before you upload your website with the new Google Tag Manager support you might
 ```
 
 You can trigger custom Google Tag Manager events via the chrome developer tools console window by typing a command like the following:
-```
+```js
 dataLayer.push({'event': 'event_name'});
 ```
 
 You can query the events currently submitted in the chrome developer tools console window by typing the following and examining the output:
-```
+```js
 dataLayer
 ```
 

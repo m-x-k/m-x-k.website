@@ -26,6 +26,7 @@ $ jshell
 ```
 
 From there you can execute java statements. While it is possible to combine some statements into one line such as a for loop it is preferred practice to got with a more reactive programming style such as java streams. For example:
+
 ```sh
 jshell> import java.util.stream.*
 jshell> IntStream.range(0, 10).map(i -> i * i).toArray()
@@ -102,7 +103,7 @@ By default this will save all commands and snippets currently active in your ses
 
 Conversely if you need to `open` files back up again you can execute:
 ```sh
-jshell> /open <FILE>
+jshell> /open [FILE]
 ```
 
 To be honest I which this feature was a little more intuitive. In most cases you will really want to save either methods or one liners in which case it would seem better to me to have a separate set of commands for this. Also I would really like to automatically preload methods/functions for newly created jshell sessions but so far I haven't found an ideal way to do this.

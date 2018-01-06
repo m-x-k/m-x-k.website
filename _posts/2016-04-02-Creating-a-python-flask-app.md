@@ -53,7 +53,7 @@ if __name__ in '__main__':
 ### Start the app
 
 In the same terminal run:
-```
+```sh
 python app.py
 ```
 

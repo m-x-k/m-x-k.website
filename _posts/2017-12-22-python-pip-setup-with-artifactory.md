@@ -12,7 +12,7 @@ tags:
 
 ## Installing a local artifactory instance:
 
-```
+```sh
 docker pull docker.bintray.io/jfrog/artifactory-oss:latest
 docker run --name artifactory -d -p 8081:8081 docker.bintray.io/jfrog/artifactory-oss
 ```
@@ -27,8 +27,8 @@ docker run --name artifactory -d -p 8081:8081 docker.bintray.io/jfrog/artifactor
 
 * You can also perform `pip install` commands pointed directly if you want to test it. For example:
 
-```
+```sh
 pip install --index-url http://localhost:8081/artifactory/api/pypi/repo-pypi-virtual/simple requests
 ```
 
-  * Some additional commands can be useful here such as `--disable-pip-version-check` and `--trusted-host <HOST>`
+* Some additional commands can be useful here such as `--disable-pip-version-check` and `--trusted-host <HOST>`

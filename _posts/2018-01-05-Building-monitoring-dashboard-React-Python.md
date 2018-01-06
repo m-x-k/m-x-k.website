@@ -81,8 +81,6 @@ fetchData() {
 The next step was to periodically update the screen every 10 seconds or so. I could have just refreshed the page with `window.reload` or a html meta tag but the user experience isn't very nice. React Components can use `intervals` to periodically update content so I went with that approach:
 
 ```js
-...
-
 componentDidMount() {
     // on page load
     this.fetchData();
@@ -97,8 +95,6 @@ componentWillMount() {
 componentWillUnmount() {
     clearInterval(this.state.intervalId);
 }
-
-...
 ```
 
 ### Configuration

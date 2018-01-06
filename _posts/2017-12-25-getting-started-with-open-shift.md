@@ -41,7 +41,7 @@ At the time of writing you can install and setup MiniShift with all the requirem
 
 ### Start MiniShift:
 
-```
+```sh
   minishift start
   minishift ip                # Get the MiniShift IP Address
   oc login -u system:admin    # Login as admin
@@ -51,13 +51,13 @@ At the time of writing you can install and setup MiniShift with all the requirem
 
 Interaction with OpenShift is with the command line tool oc. To configure and set this up execute the following:
 
-```
+```sh
   eval $(minishift oc-env)    # Setup the OpenShift command line tool
 ```
 
 ### Sample application:
 
-```
+```sh
   oc new-app https://github.com/openshift/nodejs-ex -l name=myapp     # Deploy a sample app
   oc expose svc/nodejs-ex                                             # Expose a route to the service
   minishift openshift service nodejs-ex --in-browser                  # Open the app in your browser
@@ -82,7 +82,7 @@ If you encounter this specific issue you can resolve it by updating your machine
 
 When your finished playing with MiniShift you can stop it easily with the following command:
 
-```
+```sh
   minishift stop
 ```
 
