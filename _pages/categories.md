@@ -5,6 +5,8 @@ title: "Posts by Category"
 author_profile: true
 ---
 
+<link rel="stylesheet" href="/assets/css/custom.css">
+
 {% include group-by-array collection=site.posts field="categories" %}
 
 {% for category in group_names %}

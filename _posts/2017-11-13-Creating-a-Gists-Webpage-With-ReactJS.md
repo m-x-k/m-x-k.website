@@ -13,15 +13,18 @@ tags:
 I decided to build a simple ReactJS webpage to render my personal Gists from GitHub as an basic kata.
 
 However while the ReactJS part was fairly straightforward I was once again reminded about Cross Site Scripting (XSS) issues when trying to call API's from another domain using javascript. Thankfully JQuery jsonp still works:
-<pre><code class="javascript">componentDidMount(){
+
+```js
+componentDidMount(){
     $.ajax({
       url: "https://api.github.com/users/m-x-k/gists",
       jsonp: "$jsonp"
     }).done(function(data) {
       console.log(data);
       this.setState({gists: data});
-    }.bind(this));    
-}</code></pre>
+    }.bind(this));
+}
+```
 
 Obviously in a production situation this isn't what we would rely on!!!
 

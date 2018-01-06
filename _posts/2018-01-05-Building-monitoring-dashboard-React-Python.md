@@ -38,7 +38,7 @@ I tried to follow some of the recommended best practices for React development. 
 
 
 >
-Aside from that I didn't opt to use any state based frameworks such as `Redux`. To be honest I did look into this but the extra effort and complexity made this difficult to implement. I think one of the problems here is the use of different javascript syntax. As a result of recent enchancements into the core langauge from ES5, ES6, up to ES7 and combined with JSX syntax it can be very tricky to find examples to match your own. Personally I would be concerned if javascript was my core development language at minute, the result overtime of such fragmentation in a langauge could make it difficult to maintain different code bases.
+Aside from that I didn't opt to use any state based frameworks such as `Redux`. To be honest I did look into this but the extra effort and complexity made this difficult to implement. I think one of the problems here is the use of different javascript syntax. As a result of recent enchancements into the core langauge from ES5, ES6, up to ES7 and combined with JSX syntax it can be very tricky to find examples to match your own. Personally I would be concerned if javascript was my core development language at the minute, the result overtime of such fragmentation in a language could make it difficult to maintain different code bases.
 
 ### Project developing
 
@@ -99,4 +99,42 @@ componentWillUnmount() {
 }
 
 ...
+```
+
+### Configuration
+
+The project contains the file `example.json` which ca be used to update the list of services.
+
+At this point you can only edit the following:
+
+| Field | Description |
+| --- | --- |
+| `service.name` | Service Name displayed in the dashboard panel |
+| `service.measurements` | An array of measurements for display under the service panel. These are typically of the form `{"Name":"Value"}` |
+| `service.trends` | An array of trends for display under the service panel. These are typically of the form `{"Type": "Value"}`. The `type` here can be "UP" or "DOWN" in order to display the corresponding icon. |
+
+#### Example json file:
+
+```json
+{
+  "services": [
+    {
+      "name": "Service 0",
+      "measurements": [
+        {"Submissions": "49"},
+        {"Completed": "4"}
+      ],
+      "trends": []
+    },
+    {
+      "name": "Service 1",
+      "measurements": [
+        {"Completed": "10"}
+      ],
+      "trends": [
+        {"UP": "30%"}
+      ]
+    }
+  ]
+}
 ```
