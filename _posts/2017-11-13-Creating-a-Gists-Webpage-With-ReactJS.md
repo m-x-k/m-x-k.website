@@ -35,3 +35,5 @@ Ideally we would setup a reverse proxy on "api.github.com" so that we can share 
 <em>Note: while its possible to mitigate the problem with headers it's not an ideal solution as it depends on browser support.</em>
 
 [https://codepen.io/mxk/pen/WEJBbg](https://codepen.io/mxk/pen/WEJBbg)
+
+{% codepen https://codepen.io/mxk/pen/WEJBbg height=800 preview=true %}
