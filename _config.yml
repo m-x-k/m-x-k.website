@@ -17,6 +17,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate-v2
+  - jekyll-codepen
 
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dark"

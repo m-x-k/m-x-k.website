@@ -9,6 +9,8 @@ tags:
   - Collection Literals
 ---
 
+An outline of some of the Java 9 changes to Collection literals and other areas of the core API.
+
 ## List.of and Set.of
 
 Example:
@@ -57,6 +59,29 @@ Again `null` is not supported here.
 #### Maximum of 11 entries
 >
 Over 11 entries will produce an error. To get around this you will need to use `Map.ofEntries(Map.Entry ...)`
+
+---
+
+## [Optional](https://docs.oracle.com/javase/9/docs/api/java/util/Optional.html)
+
+Java 8 introduced the concept of Optional as an operator to help prevent constantly checking for nulls. With Java 9 we now see more enhanced Optional support in the form of:
+* New API methods yielding optional values:
+  * `HttpClient.authenticator/cookieManager/proxy/sslParameters`
+  * `ServiceLoader.findFirst()`
+  * `Runtime.version().build/pre/post`
+  * `ProcessHandle.of`
+  * `ProcessHandle.Info.command/commandLine/arguments/startInstant/totalCpuDuration/user`
+* New `Optional.or()` method:
+  * If a value is present, returns an Optional describing the value, otherwise returns an Optional produced by the supplying function.
+  * `Optional<T> or(Suppplier<? extends Optional<? extends T>> supplier)`
+  * Example:
+{% gist f646aea565927c81dbdd953c42ea6258 %}
+* New `Optional.stream()` method
+  * Yields a stream of length 0 or 1
+  * Can be useful in place of a stream filter to drop empty results
+  * Example: `Stream<User> users = people.map(Person::name).flatMap(Optional::stream)`
+
+As a result of the above inclusions it is more common now to see code that no longer requires null checks all over the place. The idea here is to assist development teams to create and maintain cleaner code bases but as a result it is necessary to understand the core Java API better. Making better use of functional programming techniques like Java Streams will help to make the above API changes easier to use in the long run.
 
 ---
 

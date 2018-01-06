@@ -21,7 +21,7 @@ tags:
 | Network | AWS |
 | Physical | AWS |
 
-The top three areas `User Data`, `Application` and `Guest OS` are all the responsibility of the organisation using AWS. Typically you would think of these three areas as the EC2 service. Below these areas organisation data is not visible to AWS which helps to ensure that your customer data is protected. 
+The top three areas `User Data`, `Application` and `Guest OS` are all the responsibility of the organisation using AWS. Typically you would think of these three areas as the EC2 service. Below these areas organisation data is not visible to AWS which helps to ensure that your customer data is protected.
 
 ### AWS Compliance
 
